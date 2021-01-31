@@ -1,0 +1,19 @@
+{
+	"name": "flutter_app",
+	"dockerComposeFile": [
+		"./docker-compose.yml"
+	],
+	// The 'service' property is the name of the service for the container that VS Code should
+	// use. Update this value and .devcontainer/docker-compose.yml to the real service name.
+	"service": "app",
+	// The optional 'workspaceFolder' property is the path VS Code should open by default when
+	// connected. This is typically a file mount in .devcontainer/docker-compose.yml
+	"workspaceFolder": "/code",
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-azuretools.vscode-docker",
+		"mhutchie.git-graph",
+        "dart-code.dart-code",
+        "dart-code.flutter"
+	]
+}
